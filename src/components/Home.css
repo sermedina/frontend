@@ -1,0 +1,130 @@
+.Home {
+    margin-top: 10vh;
+    text-align: center;
+    color: #1e2a48;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.col-2 {
+    width: 16.6666666667% !important;
+}
+.col-4 {
+    width: 33.3333333334% !important;
+}
+
+.Home img {
+    width: 200px;
+}
+
+.Home__table-header {
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #dd1f64;
+    color: #FFFFFF;
+    border-radius: 9px;
+    font-weight: 700;
+}
+
+.Home__table-row {
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #56568d;
+    color: #FFFFFF;
+    border-radius: 9px;
+    font-weight: 700;
+}
+
+.Home input {
+    width: 100px;
+    padding: 10px;
+    border-radius: 9px;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+.Home button {
+    width: 250px;
+    padding: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 9px;
+    border: none;
+    background-color: #dd1f64;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Home button:disabled {
+    opacity: 0.7;
+}
+
+.col button {
+    width: auto;
+    display: inline-block;
+}
+
+.Home__modal {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 800px;
+    top: 20%;
+    left: 50%;
+    border: 1px solid #000000;
+    border-radius: 19px;
+    padding: 20px;
+    margin-left: -400px;
+}
+
+.Home__modal input {
+    width: 300px;
+    border: 1px solid #c4c4c4;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    .Home__table-header {
+      width: 350px;
+    }
+    .Home__table-row {
+        width: 350px;
+    }
+    .col button {
+        font-size: 12px;
+    }
+    .Home input {
+        width: 70px;
+        padding: 8px;
+    }
+    .Home__modal {
+        width: 350px;
+        padding: 5px;
+        margin-left: -175px;
+    }
+    .Home__modal h1{
+        font-size: 24px;
+    }
+    .Home__modal input {
+        width: 250px;
+        border: 1px solid #c4c4c4;
+        font-size: 18px;
+    }
+    .Home__modal button {
+        width: 120px;
+    }
+
+  }
